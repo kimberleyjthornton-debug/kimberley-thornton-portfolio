@@ -1,0 +1,264 @@
+:root {
+  --branding-color: #010502;
+  --secondary-color: #f4f7fc;
+  --tertiary-color: #3f3f3f;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "League Spartan", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+  color: var(--branding-color);
+}
+
+.navbar {
+  background-color: var(--secondary-color);
+}
+
+.navbar-brand {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-item {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+  font-weight: 800;
+}
+
+.greetings-container {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+
+.greetings-container p {
+  font-size: 44px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.get-started-btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+section {
+  color: var(--tertiary-color);
+}
+
+.home-project-headings {
+  font-family: "Playfair Display", serif;
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.about-me-container {
+  margin: 10px;
+}
+
+.about-me-header {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.portfolio-image img {
+  width: 600px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.all-projects-button-wrapper {
+  text-align: center;
+}
+
+.project-page-header {
+  font-size: 72px;
+  margin: 120px 0 auto;
+  text-align: start;
+  margin: 80px 0 80px;
+}
+
+.project-image {
+  width: 600px;
+  background-color: #f4f7fc;
+  padding: 80px 40px;
+  border-radius: 10px;
+  margin: 30px 20px 0 0;
+}
+
+.project-group-headers {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.project-group p {
+  color: var(--tertiary-color);
+  font-family: var(--default-font-family);
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0 0 60px 0;
+}
+
+.button-branding {
+  background-color: var(--branding-color);
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 15px 30px;
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.button-branding-outline {
+  color: var(--tertiary-color);
+  border: 2px solid var(--tertiary-color);
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin: 20px;
+  text-decoration: none;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.button-branding:hover {
+  color: white;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.button-branding-outline:hover {
+  opacity: 0.8;
+  color: var(--tertiary-color);
+  text-decoration: none;
+}
+
+.contact-page-header {
+  margin: 60px 40px 100px 20px;
+  font-size: 86px;
+}
+
+.contact-box {
+  margin-top: 80px;
+  background: var(--secondary-color);
+  padding: 20px 120px;
+  border-radius: 10px;
+}
+
+.contact-box h4 {
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  font-size: 48px;
+}
+
+.contact-box p {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--tertiary-color);
+  font-size: 28px;
+  font-weight: 500;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+    line-height: 1.5;
+  }
+  .content {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .home-project-headings {
+    font-size: 40px;
+    margin-top: 0 !important;
+  }
+  .view-project-btns {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    border-bottom: 1px solid #3f3f3f1f;
+    padding-bottom: 40px;
+  }
+  .about-me-header {
+    font-size: 34px;
+  }
+  .email-link {
+    margin-top: 20px;
+    font-size: 22px !important;
+  }
+  .project-page-header {
+    font-size: 38px;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+  }
+  .contact-page-header {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #3f3f3f1f;
+  }
+  .project-group {
+    border-bottom: 1px solid #3f3f3f1f;
+  }
+  .project-group p {
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 597px) {
+    .navbar {
+      margin-bottom: 20px;
+    }
+    .content {
+      text-align: center;
+    }
+    .greetings-container p {
+      font-size: 28px;
+    }
+  }
+}
