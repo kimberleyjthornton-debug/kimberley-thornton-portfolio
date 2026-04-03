@@ -131,27 +131,9 @@ section {
   transition: opacity 0.2s ease-in-out;
 }
 
-.button-branding-outline {
-  color: var(--tertiary-color);
-  border: 2px solid var(--tertiary-color);
-  border-radius: 4px;
-  font-size: 20px;
-  line-height: 27px;
-  padding: 15px 30px;
-  margin: 20px;
-  text-decoration: none;
-  transition: opacity 0.2s ease-in-out;
-}
-
 .button-branding:hover {
   color: white;
   opacity: 0.8;
-  text-decoration: none;
-}
-
-.button-branding-outline:hover {
-  opacity: 0.8;
-  color: var(--tertiary-color);
   text-decoration: none;
 }
 
