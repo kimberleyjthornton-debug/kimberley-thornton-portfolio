@@ -137,6 +137,10 @@ section {
   text-decoration: none;
 }
 
+.btn:focus {
+  box-shadow: none !important;
+}
+
 .contact-page-header {
   margin: 60px 40px 100px 20px;
   font-size: 86px;
